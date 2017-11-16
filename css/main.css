@@ -1,0 +1,165 @@
+html {
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+body{
+background-color: #ffffff;
+}
+
+.principal{
+  background-image: url("../img/fondo.png");
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  text-align: center;
+}
+.principal h5{
+  font-family: 'Poiret One', cursive;
+  color: #e8b06b;
+  font-size: 2em;
+
+}
+/**Nav principal*/
+.redes-sociales {
+  text-align: center;
+  margin-top: 5em;
+}
+.redes-sociales a {
+  color: #01c3cb;
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+.redes-sociales a:hover {
+  color: #e8b06b ;
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+
+.nombre{
+  font-family: 'Kaushan Script', cursive;
+  color: #2A4E95;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 3em;
+}
+#i{
+  color: #01c3cb;
+}
+.opaco{
+  opacity: 0.5;
+}
+/*Sobre mi*/
+#sobremi{
+    height: 100vh;
+    background-color: white;
+    background-image: url("../img/trinangulo.png");
+    background-position: top top;
+    background-size: cover;
+    text-align: center;
+
+}
+#portafolio{
+  height: 100vh;
+  background-color: yellow;
+}
+#skills{
+  height: 100vh;
+  background-color: pink;
+}
+#contacto{
+  height: 100vh;
+  background-color: green;
+}
+#sobremi{
+  text-align: center;
+}
+
+/*SOBRE MI DISPOSITIVOS S*/
+@media only screen and (min-width: 576px) {
+  #profile{
+    border-radius: 50%;
+    height: 30vh;
+  }
+  .sobremi{
+    margin-top: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+  }
+  .sobremi h2{
+    font-size: 2rem;
+  }
+  #sobremi > div > div:nth-child(1) > div > h2::after{
+  content: '';
+  margin: 0 auto;
+  background-image: url("../img/backc.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 250px;
+  display: block;
+  }
+  .info{
+    margin-top:10vh;
+    text-align: justify!important;
+    font-size: 1.5rem;
+  }
+}
+/*
+@media only screen and (min-width: 576px) {
+#profile
+{
+
+    border-radius: 50%;
+    height: 30vh;
+  }
+  .sobremi{
+    margin-top: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .5rem;
+  }
+  .sobremi h2{
+    font-size: 1rem;
+  }
+  .img-circle {
+   border-radius: 50%;
+ height: 50vh;
+}
+}*/
+
+
+/*SOBRE MI DISPOSITIVOS MEDIANOS (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+/
+   .img-circle {
+    border-radius: 50%;
+  height: 50vh;
+}
+.sobremi{
+  margin-top: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+}
+.sobremi h2{
+  font-size: 2rem;
+}
+
+  #sobremi > div > div:nth-child(1) > div > h2::after{
+  content: '';
+  margin: 0 auto;
+  background-image: url("../img/backc.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 250px;
+  display: block;
+}
+.info{
+  margin-top:10vh;
+  text-align: justify!important;
+} }

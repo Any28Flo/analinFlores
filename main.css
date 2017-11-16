@@ -1,0 +1,34 @@
+html {
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+body{
+background-color: #ffffff;
+}
+
+.principal{
+  background-image: url("back.jpg");
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+}
+/**Nav principal*/
+.redes-sociales {
+  text-align: center;
+}
+.redes-sociales a {
+  color: black;
+  font-size: 2em;
+  margin-right: 20px;
+}
+.redes-sociales a:last-child {
+  margin-right: 0;
+}
+.informacion-evento {
+  text-align: center;
+  color: black;
+}
